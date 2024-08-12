@@ -37,7 +37,7 @@ cd ../..
 We provide our pre-trained models.
 
 Google drive：
-
+https://drive.google.com/drive/folders/1H4VMqzX2gOnINy7lIMiwpy-tGmj2Yn6c?usp=drive_link
 
 ## Training and Evaluation
 Train: `python ./train.py ./configs/xxxx.yaml --save_ckpt_dir ./ckpt/xxx`
