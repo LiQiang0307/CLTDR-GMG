@@ -19,9 +19,9 @@ dataset: {
 model: {
   fpn_type: identity,
   max_buffer_len_factor: 1.0,
-  backbone_arch: [ 2, 2, 5 ],
+  backbone_arch: [ 2, 2, 6 ],
   n_sgp_win_size: 3,
-  regression_range: [ [ 0, 4 ], [ 4, 8 ], [ 8, 16 ], [ 16, 32 ], [ 32, 64 ], [ 64, 10000 ] ],
+  regression_range: [ [ 0, 4 ], [ 4, 8 ], [ 8, 16 ], [ 16, 32 ], [ 32, 64 ], [ 64, 128 ],[128,10000] ],
   embd_dim: 1024,
   sgp_mlp_dim: 1024,
   fpn_dim: 1024,
